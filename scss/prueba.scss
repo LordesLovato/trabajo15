@@ -1,0 +1,107 @@
+
+nav {
+	position: fixed;
+	background-color: #999999;
+	z-index: 3;
+	overflow: hidden;
+
+
+
+    nav{
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #999999;
+    z-index: 3;
+    overflow: hidden;
+    }
+
+}
+
+
+
+
+
+.idenxprod{
+    font-size: 30px;
+    font-family:cursive ;
+    text-align: center;
+    list-style: none;
+
+    h3{
+        text-align: center;
+        font-family:'raleway',sans-serif;
+        font-size:40px;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        margin-bottom: 0px;
+        letter-spacing: none;
+        
+    }
+
+    ul{
+
+    font-size: 25px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	list-style: none;
+	text-align: center;
+
+    }
+
+}
+
+
+
+$grillas:( 
+        grid: #FF577F,#CDFFFC
+        grand: #FDE8CD,#DFE0DF
+        
+);
+
+@each $red, $color in $grillas {
+   .btn--#{$red} {
+       background-image: $color;
+   }
+}
+
+
+
+
+
+
+
+@each $estilo in num,article__producto {
+    .#{$estilo}{
+        list-style: none;
+
+
+    }
+}
+
+
+@each $estilos in nosotros,h1 {
+    .#{$estilos}{
+        margin-top: 150px;
+        text-align: center;
+        text-emphasis: center;
+    }
+    
+}
+
+
+
+@mixin margin($margin-top, $margin-botton) {
+    margin-top: $margin-top;
+    margin-bottom: $margin-botton;
+ }
+ .article__precio {
+    @include margin(150px, 5px);
+ }
+ 
+
+body{
+    background-color: aqua;
+}

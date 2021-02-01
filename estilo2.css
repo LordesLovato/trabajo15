@@ -1,0 +1,167 @@
+*{
+	box-sizing: content-box;
+}
+
+header{
+	font-size: 25px
+}
+
+body{
+	background-color:#EFE7FF;
+}
+
+footer{
+	background-color: gray;
+	color: honeydew;
+	font-size: 15px;
+	padding-top:30px ;
+	padding-bottom:30px ;
+}
+
+
+
+
+
+table{
+	font-family:'Merriweather',serif;
+	font-size: 20px;
+	word-spacing: 5px;
+	text-align: center;
+}
+
+.imagenes{
+
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 1000px;
+}
+
+
+
+article{
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-bottom: groove;
+	font-family:'Merriweather',serif;
+	font-size: 25px;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-align: center;
+}
+
+
+
+
+
+.color{
+	color:#1A5276;
+	font-family:'Libre Baskerville', serif ;
+	font-size: 35px;
+}
+.titulo__contacto{
+text-align: center;
+font-family: 'Merriweather', serif;
+font-size: 35px;
+padding-top:  150px;
+
+padding-bottom: 50px;
+
+}
+
+h2,h3,h4{
+	text-align: center;
+	font-family:'raleway',sans-serif;
+	font-size:30px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	letter-spacing: none;
+}
+
+
+.pastafrola{
+
+	padding-left: 350px;	
+	list-style: none;
+	background-color: #FF8585;
+	align-items: center
+	
+
+}
+
+
+
+#grid{
+
+background-image: linear-gradient(#FF8585,#FFF5C0);
+}
+
+
+
+
+.pastafrola__column {
+	float: left;
+	width: 25%;
+	padding: 50px;
+}
+
+@media screen and (max-width: 700px) {
+.row{ font-size: 50px;}
+}
+
+
+
+.column-reset__ol--lista{
+	font-size: 20px;
+}
+
+.column-reset__ol{
+font-size:20px;
+padding-bottom: 45px;
+}
+
+ul{
+	font-size: 25px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+section{	
+	letter-spacing: 5px;
+	line-height: 20px;
+	text-align: center;
+	font-family: 'Merriweather',serif;
+	font-size: 20px;
+	overflow: hidden;
+	background-color: #FBF4F4;
+	margin-left:100px;
+	margin-right: 100px;
+}
+
+
+
+.contacto{
+display: flex;
+flex-direction: column;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.conteiner{
+	border-style: ridge;
+	margin-left: 350px;
+	margin-right: 350px ;
+}
+
+button{
+	border:outset;
+	border-color: #79df2c;
+	background-color: #7CE32D;
+}

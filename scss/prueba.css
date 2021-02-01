@@ -1,0 +1,72 @@
+nav {
+  position: fixed;
+  background-color: #999999;
+  z-index: 3;
+  overflow: hidden;
+}
+
+nav nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #999999;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.idenxprod {
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+  list-style: none;
+}
+
+.idenxprod h3 {
+  text-align: center;
+  font-family: 'raleway',sans-serif;
+  font-size: 40px;
+  padding-bottom: 20px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  letter-spacing: none;
+}
+
+.idenxprod ul {
+  font-size: 25px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  list-style: none;
+  text-align: center;
+}
+
+.num {
+  list-style: none;
+}
+
+.article__producto {
+  list-style: none;
+}
+
+.nosotros {
+  margin-top: 150px;
+  text-align: center;
+  -webkit-text-emphasis: center;
+          text-emphasis: center;
+}
+
+.h1 {
+  margin-top: 150px;
+  text-align: center;
+  -webkit-text-emphasis: center;
+          text-emphasis: center;
+}
+
+.article__precio {
+  margin-top: 150px;
+  margin-bottom: 5px;
+}
+
+
+
+/*# sourceMappingURL=prueba.css.map */
